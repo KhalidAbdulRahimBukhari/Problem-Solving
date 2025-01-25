@@ -1,4 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\90552\Desktop\Problem Solving\Algorithms\Programming Advices\Cource 5\problem3\ConsoleApplication1\ConsoleApplication1.cpp(20,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\90552\Desktop\Problem Solving\Algorithms\Programming Advices\Cource 5\problem3\ConsoleApplication1\ConsoleApplication1.cpp(47,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  ConsoleApplication1.vcxproj -> C:\Users\90552\Desktop\Problem Solving\Algorithms\Programming Advices\Cource 5\problem3\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
