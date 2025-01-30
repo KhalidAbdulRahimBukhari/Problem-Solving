@@ -1,0 +1,4 @@
+﻿  Print3RandomNumbers.cpp
+C:\Users\90552\Desktop\Problem Solving\Programming Advices - Algorithms\3 Random Numbers from 1 to 10\Print3RandomNumbers\Print3RandomNumbers.cpp(44,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\90552\Desktop\Problem Solving\Programming Advices - Algorithms\3 Random Numbers from 1 to 10\Print3RandomNumbers\Print3RandomNumbers.cpp(33,1): warning C4715: 'GuessPassword': not all control paths return a value
+  Print3RandomNumbers.vcxproj -> C:\Users\90552\Desktop\Problem Solving\Programming Advices - Algorithms\3 Random Numbers from 1 to 10\Print3RandomNumbers\x64\Debug\Print3RandomNumbers.exe
