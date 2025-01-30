@@ -2,47 +2,41 @@
 #include <string>
 using namespace std;
 
+enum enCharType {CapitalLetter = 0 , SmallLetter =1 , SpecialChar = 2 , Digit =3};
+
 
 int GetRandomNumber(int from, int to)
 {
 	return  from + (rand() % (to - from + 1));
 }
 
-char randomSmallChar()
+char GetRandomChar(enCharType charType)
 {
-	return char( GetRandomNumber(97,122));
+	switch (charType)
+	{
+	case CapitalLetter:
+		return char(GetRandomNumber(65, 90));
+		break;
+	case SmallLetter:
+		return char(GetRandomNumber(97, 122));
+		break;
+	case SpecialChar:
+		return char(GetRandomNumber(32, 47));
+		break;
+	case Digit:
+		return char(GetRandomNumber(48, 57));
+		break;
+	default:
+		break;
+	}
 }
 
-char randomCapitalChar()
-{
-	return char(GetRandomNumber(65, 90));
-}
-
-int randomDigit()
-{
-	return GetRandomNumber(48, 57);
-}
-
-
-char randomSpecialChar()
-{
-	return char(GetRandomNumber(32, 47));
-}
 
 
 
 int main()
 {
 	srand(time(0));
-
-	cout << randomSmallChar() << endl;
-
-	cout << randomCapitalChar() << endl;
-
-	cout << randomDigit() << endl;
-
-	cout << randomSpecialChar() << endl;
-
 
 
 
