@@ -1,0 +1,3 @@
+﻿  CountOddNumbersInArray.cpp
+C:\Users\90552\Desktop\CountOddNumbersInArray\CountOddNumbersInArray\CountOddNumbersInArray.cpp(51,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CountOddNumbersInArray.vcxproj -> C:\Users\90552\Desktop\CountOddNumbersInArray\CountOddNumbersInArray\x64\Debug\CountOddNumbersInArray.exe
