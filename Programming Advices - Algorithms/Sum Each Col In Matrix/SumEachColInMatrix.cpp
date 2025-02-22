@@ -41,18 +41,7 @@ int SumCol(int Matrix[3][3], int colnumber, int rows)
 	return sum;
 }
 
-void FillArrayWithSumOfColsInMatrix(int Matrix[3][3], int arrSum[3], int cols , int rows)
-{
-	for (int i = 0; i < cols; i++)
-	{
-		arrSum[i] = SumCol(Matrix, i, rows);
-	}
-
-
-}
-
-
-void PrintSumOfEachCol2(int matrix[3][3], int rows, int cols)
+void PrintSumOfEachCol(int matrix[3][3], int rows, int cols)
 {
 	for (int i = 0; i < cols; i++)
 	{
@@ -60,14 +49,6 @@ void PrintSumOfEachCol2(int matrix[3][3], int rows, int cols)
 	}
 }
 
-
-void PrintSumOfEachCol(int arr[3], int rows)
-{
-	for (int i = 0; i < rows; i++)
-	{
-		cout << "Sum of col " << i + 1 << "\t = " << arr[i] << endl;
-	}
-}
 
 int main()
 {
